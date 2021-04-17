@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 ## 💻 Projeto
 
-Desafio feito para o Overmediacast, aplicação deveria conter 6 telas adaptáveis para o web/mobile.
+Desafio feito para o Overmediacast, aplicação contém 6 telas adaptáveis para o web/mobile.
 
 ## :memo: Licença
 
