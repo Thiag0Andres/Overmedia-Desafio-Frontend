@@ -8,7 +8,7 @@ import Alimetação_Refeição from '../../assets/Alimetação_Refeição.png';
 // Styles
 import './styles.css';
 
-function ModalAlimentação({ show, onHide }) {
+function ModalFeedMeal({ show, onHide }) {
   return (
     <div id="modal-alimentação">
       <div className="opacity" />
@@ -39,4 +39,4 @@ function ModalAlimentação({ show, onHide }) {
   );
 }
 
-export default ModalAlimentação;
+export default ModalFeedMeal;

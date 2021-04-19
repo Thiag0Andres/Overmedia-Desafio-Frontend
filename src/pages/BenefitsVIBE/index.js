@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 // Components
-import ModalAlimentação from '../../components/ModalAlimentação';
+import ModalFeedMeal from '../../components/ModalFeedMeal';
 
 // Icons
 import svg685352 from '../../assets/685352.svg';
@@ -63,7 +63,7 @@ function BenefitsVIBE() {
           </li>
         </ul>
       </div>
-      {show && <ModalAlimentação show={show} onHide={() => setShow(false)} />}
+      {show && <ModalFeedMeal show={show} onHide={() => setShow(false)} />}
     </>
   );
 }

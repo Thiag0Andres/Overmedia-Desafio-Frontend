@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+
+// Components
+import ModalAcceptProposal from '../../components/ModalAcceptProposal';
 
 // Icons
 import Grupo20 from '../../assets/Grupo 20.svg';
@@ -14,6 +17,8 @@ import './styles.css';
 function Footer({ IconP, IconB }) {
   const history = useHistory();
 
+  const [show, setShow] = useState(false);
+
   const handlePageHome = () => {
     history.push('/');
   };
@@ -22,26 +27,33 @@ function Footer({ IconP, IconB }) {
     history.push('/menu-beneficios');
   };
 
+  console.log(show);
+
   return (
-    <div id="Footer">
-      <div className="icons-content">
-        <div
-          className={IconP ? 'icon-footer-active' : 'icon-footer-normal'}
-          onClick={handlePageHome}
-        >
-          <img src={IconP ? svg768049 : svg768050} alt="" />
+    <>
+      <div id="Footer">
+        <div className="icons-content">
+          <div
+            className={IconP ? 'icon-footer-active' : 'icon-footer-normal'}
+            onClick={handlePageHome}
+          >
+            <img src={IconP ? svg768049 : svg768050} alt="" />
+          </div>
+          <div
+            className={IconB ? 'icon-footer-active' : 'icon-footer-normal'}
+            onClick={handlePageBenefits}
+          >
+            <img src={IconB ? Grupo21 : Grupo20} alt="" />
+          </div>
         </div>
-        <div
-          className={IconB ? 'icon-footer-active' : 'icon-footer-normal'}
-          onClick={handlePageBenefits}
-        >
-          <img src={IconB ? Grupo21 : Grupo20} alt="" />
+        <div className="content-hands" onClick={() => setShow(true)}>
+          <img src={svg215654} alt="" />
         </div>
       </div>
-      <div className="content-hands">
-        <img src={svg215654} alt="" />
-      </div>
-    </div>
+      {show && (
+        <ModalAcceptProposal show={show} onHide={() => setShow(false)} />
+      )}
+    </>
   );
 }
 
