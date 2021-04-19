@@ -1,0 +1,137 @@
+#benefits-container {
+  width: 360px;
+  height: 640px;
+  background: #faf9fa 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+#benefits-container .header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 32px;
+}
+
+#benefits-container .header h1 {
+  height: 26px;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  font-family: Roboto;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #650d99;
+  opacity: 1;
+}
+
+#benefits-container .header p {
+  height: 19px;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-family: Roboto;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #4c4c4c;
+  opacity: 1;
+}
+
+#benefits-container ul {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 32px;
+}
+
+#benefits-container li {
+  width: 296px;
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 10px 7px 25px #200b2d1a;
+  border-radius: 8px;
+  opacity: 1;
+
+  margin-bottom: 16px;
+
+  cursor: pointer;
+  list-style: none;
+}
+#benefits-container li .left-edge {
+  width: 8px;
+  height: 64px;
+  background: #650d99 0% 0% no-repeat padding-box;
+  border-radius: 8px 0px 0px 8px;
+  opacity: 1;
+}
+
+#benefits-container li .image-content {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 24px 0 16px;
+
+  border-radius: 50%;
+  background: #efe7f3;
+}
+
+#benefits-container li .title-info {
+  height: 19px;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-family: Roboto;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #650d99;
+  opacity: 1;
+}
+
+#benefits-container li .text-info {
+  height: 16px;
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: medium;
+  font-family: Roboto;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #6c6c6c;
+  opacity: 1;
+}
+
+#benefits-container li .arrow {
+  width: 7px;
+  height: 12px;
+  background: #650d99 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#benefits-container .content-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

@@ -17,9 +17,10 @@ import './styles.css';
 
 function Home() {
   return (
-    <div id="home">
+    <div id="home-container">
       <div className="header">
-        <h1>Proposta</h1> <img src={Page1} alt="" />
+        <h1>Proposta</h1>
+        <img src={Page1} alt="" />
       </div>
       <div className="content-avatar">
         <img src={Avatar} alt="" />
@@ -45,7 +46,7 @@ function Home() {
 
               <div>
                 <h2 className="title-info">Salário</h2>
-                <p className="text-info">Consultor de RH</p>
+                <p className="text-info">R$10.000,00</p>
               </div>
             </li>
           </div>

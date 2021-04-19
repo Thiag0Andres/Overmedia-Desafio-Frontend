@@ -10,7 +10,11 @@
   position: relative;
 }
 
-.content-hands {
+#Footer span {
+  cursor: pointer;
+}
+
+#Footer .content-hands {
   width: 94px;
   height: 94px;
   display: flex;
@@ -24,4 +28,6 @@
   position: absolute;
   bottom: -19px;
   right: -9px;
+
+  cursor: pointer;
 }

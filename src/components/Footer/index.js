@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 // Icons
 import Grupo20 from '../../assets/Grupo 20.svg';
@@ -9,13 +10,23 @@ import svg215654 from '../../assets/215654.svg';
 import './styles.css';
 
 function Footer() {
+  const history = useHistory();
+
+  const handlePageHome = () => {
+    history.push('/');
+  };
+
+  const handlePageBenefits = () => {
+    history.push('/menu-beneficios');
+  };
+
   return (
     <div id="Footer">
       <div>
-        <span>
+        <span onClick={handlePageHome}>
           <img src={svg768049} alt="" />
         </span>
-        <span>
+        <span onClick={handlePageBenefits}>
           <img src={Grupo20} alt="" />
         </span>
       </div>
