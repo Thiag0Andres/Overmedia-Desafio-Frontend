@@ -2,15 +2,14 @@ import React from 'react';
 
 import Routes from './routes';
 
-import GlobalStyle from './styles/globalStyle';
+import './styles/globalStyle.css';
 
 const App = () => {
-   return (
-      <>
-         <Routes />
-         <GlobalStyle />
-      </>
-   );
+  return (
+    <>
+      <Routes />
+    </>
+  );
 };
 
 export default App;
