@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Components
 import Footer from '../../components/Footer';
@@ -16,6 +16,8 @@ import Caminho395 from '../../assets/Caminho 395.svg';
 import './styles.css';
 
 function Home() {
+  const [active, setActive] = useState(true);
+
   return (
     <div id="home-container">
       <div className="header">
@@ -83,7 +85,7 @@ function Home() {
         </ul>
       </div>
       <div className="content-footer">
-        <Footer />
+        <Footer IconP={active} IconB={!active} />
       </div>
     </div>
   );
