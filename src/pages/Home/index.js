@@ -28,62 +28,62 @@ function Home() {
         <img src={Avatar} alt="" />
         <span>Bruna da Silva Santos</span>
       </div>
-      <div className="content">
-        <ul>
-          <div className="first-list-items">
-            <li>
-              <div className="image-content">
-                <img src={Grupo62} alt="" />
-              </div>
 
-              <div>
-                <h2 className="title-info">Cargo</h2>
-                <p className="text-info">Consultor de RH</p>
-              </div>
-            </li>
-            <li>
-              <div className="image-content">
-                <img src={Caminho394} alt="" />
-              </div>
+      <ul>
+        <div className="first-list-items">
+          <li>
+            <div className="image-content">
+              <img src={Grupo62} alt="" />
+            </div>
 
-              <div>
-                <h2 className="title-info">Salário</h2>
-                <p className="text-info">R$10.000,00</p>
-              </div>
-            </li>
+            <div>
+              <h2 className="title-info">Cargo</h2>
+              <p className="text-info">Consultor de RH</p>
+            </div>
+          </li>
+          <li>
+            <div className="image-content">
+              <img src={Caminho394} alt="" />
+            </div>
+
+            <div>
+              <h2 className="title-info">Salário</h2>
+              <p className="text-info">R$10.000,00</p>
+            </div>
+          </li>
+        </div>
+
+        <li>
+          <div className="image-content">
+            <img src={svg726532} alt="" />
           </div>
+          <div>
+            <h2 className="title-info">Bônus PPR</h2>
+            <p className="text-info">2,4 salários por ano</p>
+          </div>
+        </li>
 
-          <li>
-            <div className="image-content">
-              <img src={svg726532} alt="" />
-            </div>
-            <div>
-              <h2 className="title-info">Bônus PPR</h2>
-              <p className="text-info">2,4 salários por ano</p>
-            </div>
-          </li>
+        <li>
+          <div className="image-content">
+            <img src={Caminho399} alt="" />
+          </div>
+          <div>
+            <h2 className="title-info">Início</h2>
+            <p className="text-info">12/05/2021</p>
+          </div>
+        </li>
 
-          <li>
-            <div className="image-content">
-              <img src={Caminho399} alt="" />
-            </div>
-            <div>
-              <h2 className="title-info">Início</h2>
-              <p className="text-info">12/05/2021</p>
-            </div>
-          </li>
+        <li>
+          <div className="image-content">
+            <img src={Caminho395} alt="" />
+          </div>
+          <div>
+            <h2 className="title-info">Localização</h2>
+            <p className="text-info">Escritório VIVO São Paulo</p>
+          </div>
+        </li>
+      </ul>
 
-          <li>
-            <div className="image-content">
-              <img src={Caminho395} alt="" />
-            </div>
-            <div>
-              <h2 className="title-info">Localização</h2>
-              <p className="text-info">Escritório VIVO São Paulo</p>
-            </div>
-          </li>
-        </ul>
-      </div>
       <div className="content-footer">
         <Footer IconP={active} IconB={!active} />
       </div>

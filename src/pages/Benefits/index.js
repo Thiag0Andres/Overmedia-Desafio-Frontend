@@ -29,7 +29,7 @@ function Benefits() {
       </div>
 
       <ul>
-        <li onClick={handlePageBenefitsVIBE}>
+        <li className="li-1" onClick={handlePageBenefitsVIBE}>
           <div className="left-edge" />
           <div className="image-content">
             <img src={Grupo578} alt="" />
@@ -41,7 +41,7 @@ function Benefits() {
           <MdKeyboardArrowRight size={24} color="#650D99" className="arrow" />
         </li>
 
-        <li>
+        <li className="li-2">
           <div className="left-edge" />
           <div className="image-content">
             <img src={Grupo580} alt="" />
@@ -53,7 +53,7 @@ function Benefits() {
           <MdKeyboardArrowRight size={24} color="#650D99" className="arrow" />
         </li>
 
-        <li>
+        <li className="li-3">
           <div className="left-edge" />
           <div className="image-content">
             <img src={Grupo592} alt="" />

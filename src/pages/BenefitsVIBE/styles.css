@@ -7,6 +7,11 @@
   overflow: hidden;
 }
 
+#benefits-container-vibe .content-BV {
+  width: 100%;
+  height: 100%;
+}
+
 #benefits-container-vibe .header {
   width: 100%;
   height: 125px;

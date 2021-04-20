@@ -16,6 +16,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  animation: fade_animation 0.4s backwards linear;
 }
 
 #modal-accept-proposal .content .image-content {

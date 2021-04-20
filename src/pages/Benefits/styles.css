@@ -16,6 +16,8 @@
   align-items: flex-start;
 
   padding: 32px;
+
+  animation: opacity_animation 1s linear;
 }
 
 #benefits-container .header h1 {
@@ -77,6 +79,23 @@
   list-style: none;
 
   position: relative;
+}
+#benefits-container .li-1 {
+  animation: move_animation 0.6s backwards;
+  animation-delay: 0.6s;
+  animation-timing-function: ease-out;
+}
+
+#benefits-container .li-2 {
+  animation: move_animation 0.6s backwards;
+  animation-delay: 0.65s;
+  animation-timing-function: ease-out;
+}
+
+#benefits-container .li-3 {
+  animation: move_animation 0.6s backwards;
+  animation-delay: 0.7s;
+  animation-timing-function: ease-out;
 }
 #benefits-container li .left-edge {
   width: 8px;

@@ -27,8 +27,6 @@ function Footer({ IconP, IconB }) {
     history.push('/menu-beneficios');
   };
 
-  console.log(show);
-
   return (
     <>
       <div id="Footer">
