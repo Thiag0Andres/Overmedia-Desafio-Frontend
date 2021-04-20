@@ -125,6 +125,12 @@
 
   border-radius: 50%;
   background: #efe7f3;
+
+  position: relative;
+}
+
+#benefits-container-vibe li .image-content img {
+  position: absolute;
 }
 
 #benefits-container-vibe li .title-info {

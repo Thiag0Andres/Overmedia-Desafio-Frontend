@@ -41,6 +41,68 @@
   cursor: pointer;
 }
 
+#Footer .box-text {
+  width: 162px;
+  height: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px;
+
+  background: #eb3c7d 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #ffc2d8;
+  border-radius: 4px;
+  opacity: 1;
+
+  position: absolute;
+  top: -110px;
+  right: 25px;
+}
+
+#Footer .box-text::before {
+  content: '';
+  position: absolute;
+  right: 10px;
+  bottom: -13px;
+
+  border-top: 13px solid #eb3c7d;
+  border-bottom: 0pxsolid transparent;
+  border-right: 9.5px solid transparent;
+  border-left: 9.5px solid transparent;
+
+  transition: all 0.2s ease-in;
+}
+
+#Footer .title-box {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-family: Roboto;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #faf9fa;
+  opacity: 1;
+
+  margin-bottom: 3px;
+}
+
+#Footer .text-box {
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
 #Footer .content-hands {
   width: 94px;
   height: 94px;

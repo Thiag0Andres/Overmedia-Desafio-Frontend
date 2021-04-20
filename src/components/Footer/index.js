@@ -44,6 +44,14 @@ function Footer({ IconP, IconB }) {
             <img src={IconB ? Grupo21 : Grupo20} alt="" />
           </div>
         </div>
+        {IconP && (
+          <div className="box-text">
+            <h1 className="title-box">Gostou da proposta?</h1>
+            <p className="text-box">
+              Responda se aceita fazer parte do nosso time.
+            </p>
+          </div>
+        )}
         <div className="content-hands" onClick={() => setShow(true)}>
           <img src={svg215654} alt="" />
         </div>

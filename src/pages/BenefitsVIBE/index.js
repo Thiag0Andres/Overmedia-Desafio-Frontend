@@ -8,6 +8,8 @@ import ModalFeedMeal from '../../components/ModalFeedMeal';
 import svg685352 from '../../assets/685352.svg';
 import svg2035128 from '../../assets/2035128.svg';
 import Grupo261 from '../../assets/Grupo 261.svg';
+import Retângulo151 from '../../assets/Retângulo 151.svg';
+import Retângulo152 from '../../assets/Retângulo 152.svg';
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from 'react-icons/md';
 
 // Styles
@@ -53,7 +55,8 @@ function BenefitsVIBE() {
 
             <li>
               <div className="image-content">
-                <img src={svg2035128} alt="" />
+                <img src={Retângulo151} alt="" />
+                <img src={Retângulo152} alt="" />
               </div>
               <h2 className="title-info">Assistência Médica</h2>
               <MdKeyboardArrowRight
